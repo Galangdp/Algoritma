@@ -9,7 +9,6 @@ def mergeSort(X):
         mergeSort(righthalf)
 
         i = j = k = 0
-
         while i < len(lefthalf) and j < len(righthalf):
             if lefthalf[i] < righthalf[j]:
                 X[k] = lefthalf[i]
